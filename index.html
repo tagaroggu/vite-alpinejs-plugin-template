@@ -7,8 +7,7 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app" x-data="{ hello: 'world' }">
-      <div x-chimera>huh</div>
+    <div id="app" x-data="{ name: 'Lola' }" x-text="$hello(name)">
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

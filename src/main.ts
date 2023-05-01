@@ -1,6 +1,6 @@
-import Alpine from "alpinejs";
-import Plugin from "../lib/main.js";
+import Alpine from "alpinejs"
+import Plugin from "../lib/main.js"
 
-Alpine.plugin(Plugin);
+Alpine.plugin(Plugin)
 
 Alpine.start()
